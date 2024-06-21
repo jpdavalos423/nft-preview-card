@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(217, 54%, 11%);
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+}
+
+main.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+
+  max-width: 300px;
+  margin: auto;
+  margin-top: 16vh;
+
+  padding: 25px;
+}
+
+.header img {
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.header h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+
+  margin: 20px 0;
+}
+
+.author img {
+  border-radius: 180px;
+  border: 1px solid white;
+
+  width: 30px;
+}
