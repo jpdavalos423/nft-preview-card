@@ -10,6 +10,7 @@ body {
 
   color: hsl(215, 51%, 70%);
   background-color: hsl(217, 54%, 11%);
+  margin: 0 25px;
 }
 
 hr {
@@ -29,9 +30,36 @@ main.card {
 }
 
 .header img {
+  position: relative;
+  display: block;
   margin: auto;
   width: 100%;
   border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 255, 247, 0);
+  opacity: 0;
+  width: 325px;
+  border-radius: 10px;
+
+  top: 53.25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  transition: 0.2s linear;
+}
+.overlay img {
+  padding: 137px;
+  width: 50px;
+}
+
+.overlay img:hover,
+.overlay:hover {
+  background: rgba(0, 255, 247, 0.5);
+  opacity: 1;
 }
 
 .header h1 {
