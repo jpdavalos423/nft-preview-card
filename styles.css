@@ -42,12 +42,20 @@ main.card {
   margin: 20px 0;
 }
 
+.header h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
 .stats {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   margin: 25px 0;
+}
+
+.stats span {
+  margin-left: 6px;
 }
 
 .price {
@@ -81,6 +89,10 @@ main.card {
 .author span em {
   font-style: normal;
   color: white;
+}
+
+.author span em:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .attribution {
