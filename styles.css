@@ -64,6 +64,7 @@ main.card {
   color: white;
 }
 
+
 .overlay:hover {
   opacity: 1;
   background-color: rgba(0, 255, 247, 0.5);
