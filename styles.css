@@ -51,6 +51,7 @@ main.card {
   height: 100%;
   top: 0;
 
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   transition: 0.2s ease;
 }
 
